@@ -1,0 +1,47 @@
+format: jb-book
+root: content/0.introduction.md
+chapters:
+- file: content/chapter1/intro.md
+  sections:
+  - file: content/chapter1/1.basics_of_coding.ipynb
+  - file: content/chapter1/2.code_components.ipynb
+  - file: content/chapter1/3.variables_and_assignment.ipynb
+  - file: content/chapter1/4.numbers_and_arithmetic.ipynb
+  - file: content/chapter1/5.string_data_type.ipynb
+  - file: content/chapter1/6.string_as_object.ipynb
+  - file: content/chapter1/7.input_and_output.ipynb
+- file: content/chapter2/intro.md
+  sections:
+  - file: content/chapter2/8.basics_of_algorithmization.md
+  - file: content/chapter2/9.conditional.ipynb
+  - file: content/chapter2/10.conditional_loop.ipynb
+  - file: content/chapter2/11.for_in_loop.ipynb
+  - file: content/chapter2/12.sequences.ipynb
+  - file: content/chapter2/13.dictionaries.ipynb
+- file: content/chapter3/intro.md
+  sections:
+  - file: content/chapter3/14.functions.ipynb
+  - file: content/chapter3/15.built_in_functions.ipynb
+  - file: content/chapter3/16.high_order_functions.ipynb
+  - file: content/chapter3/17.generator_expressions.ipynb
+- file: content/chapter4/intro.md
+  sections:
+  - file: content/chapter4/18.modules.ipynb
+  - file: content/chapter4/19.filesystem.ipynb
+  - file: content/chapter4/20.io.files.ipynb
+  - file: content/chapter4/21.json.ipynb
+- file: content/practice/intro.md
+  sections:
+  - file: content/practice/1.practice.ipynb
+  - file: content/practice/2.practice.ipynb
+  - file: content/practice/3.practice.ipynb
+  - file: content/practice/4.practice.ipynb
+  - file: content/practice/5.practice.ipynb
+  - file: content/practice/6.practice.ipynb
+  - file: content/practice/7.practice.ipynb
+- file: content/chapter5/intro.md
+  sections:
+  - file: content/chapter5/22.str.ipynb
+  - file: content/chapter5/23.seq.ipynb
+  - file: content/chapter5/24.dict.ipynb
+  - file: content/chapter5/25.set.ipynb
