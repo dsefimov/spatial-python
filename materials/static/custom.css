@@ -1,0 +1,23 @@
+.logo__image {
+    width: 30% !important;
+}
+
+.logo__title {
+    font-size: 1em !important;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    flex-direction: row !important;
+}
+
+.prev-next-title {
+    font-weight: normal !important;
+}
+
+html[data-theme="dark"],
+html[data-theme="light"] {
+    --pst-color-secondary: #fae67f;
+    --pst-color-table-row-hover-bg: #fae67f;
+    --pst-color-link-hover: #176de8;
+}

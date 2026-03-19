@@ -1,4 +1,3 @@
-title: "Введение в Python: основы синтаксиса"
 author: Ефимов Д.С.
 copyright: "2026"
 execute:
@@ -6,6 +5,8 @@ execute:
 sphinx:
     config:
         language: ru
+        html_static_path: ["static"]
+        html_css_files: ["custom.css"]
         html_theme_options:
             use_download_button: false
             repository_url: https://github.com/dsefimov/spatial-python
@@ -13,3 +14,7 @@ sphinx:
             path_to_docs: materials
             launch_buttons:
                 colab_url: "https://colab.research.google.com"
+            logo:
+                text: "Введение в Python: основы синтаксиса"
+                image_light: materials/static/logo.svg
+                image_dark: materials/static/logo.svg
