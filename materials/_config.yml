@@ -7,6 +7,9 @@ sphinx:
         language: ru
         html_static_path: ["static"]
         html_css_files: ["custom.css"]
+
+        togglebutton_hint: "Подробнее" 
+        
         html_theme_options:
             use_download_button: false
             repository_url: https://github.com/dsefimov/spatial-python
